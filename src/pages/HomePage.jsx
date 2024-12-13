@@ -1,11 +1,9 @@
-import HomePageContent from "../components/HomePage/HomePageContent";
-import HomePageHeader from "../components/HomePage/HomePageHeader";
+import TrafficLight from "../components/HomePage/TrafficLight";
 
 const HomePage = () => {
   return (
     <>
-      <HomePageHeader />
-      <HomePageContent />
+      <TrafficLight />
     </>
   );
 };
